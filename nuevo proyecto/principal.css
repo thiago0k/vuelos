@@ -1,0 +1,208 @@
+/* * {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.ofertas-texto {
+  margin: 30px;
+}
+
+.contenedor {
+    margin: auto;
+    display: inline-block;
+    margin-right: 10px; 
+    width:250px;
+    height: 400px;
+    border: solid 1px gainsboro;
+    font-size: 15px;
+    border-radius: 10px;  
+    transition: all 0.3s ease-in-out;
+    margin-right: 40px;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+.contenedor:hover {
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.3);
+
+}
+
+ 
+
+
+.imagen1 {
+    height: 170px;
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+
+hr {
+    margin: 10px;
+}
+
+.texto-pequeño {
+    font-size: 13px;
+}
+
+.texto-grande {
+    font-size: 25px;
+    margin: 3px;
+}
+
+.contenedor-principal {
+ text-align: center;
+}
+
+.logo {
+    width: 100px;
+}
+
+.alogamiento {
+    background-color: #3f6e8c;
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
+    height: 10vh;
+}
+
+.ul__li {
+    list-style-type: none;
+    margin: 30px;
+    height: 10vh;
+    line-height: 10vh;
+}
+
+a:hover {
+    color:#375671 ;
+
+}
+
+a {
+    transition: all 0.6s ease-in-out;
+    text-decoration: none;
+    color: white;
+}
+
+i {
+    color: white;
+    margin: 7px;
+}
+
+ */
+
+
+
+
+
+
+
+
+
+
+
+
+ * {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.ofertas-texto {
+    margin: 30px;
+}
+
+.contenedor {
+    margin: auto;
+    display: inline-block;
+    width: 100%;
+    max-width: 250px;
+    height: auto;
+    border: solid 1px gainsboro;
+    font-size: 15px;
+    border-radius: 10px;  
+    transition: all 0.3s ease-in-out;
+    margin-bottom: 30px;
+    cursor: pointer;
+}
+
+.contenedor:hover {
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.3);
+}
+
+.imagen1 {
+    height: auto;
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+hr {
+    margin: 10px;
+}
+
+.texto-pequeño {
+    font-size: 13px;
+}
+
+.texto-grande {
+    font-size: 25px;
+    margin: 3px;
+}
+
+.contenedor-principal {
+    text-align: center;
+}
+
+.logo {
+    width: 100px;
+}
+
+.alogamiento {
+    background-color: #3f6e8c;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 10vh;
+    padding: 0 20px; /* Añadido padding para que no se pegue a los bordes */
+}
+
+.ul__li {
+    list-style-type: none;
+    margin: 0 10px; /* Reducir el margen para que se ajuste mejor */
+    height: 10vh;
+    line-height: 10vh;
+}
+
+a:hover {
+    color: #375671;
+}
+
+a {
+    transition: all 0.6s ease-in-out;
+    text-decoration: none;
+    color: white;
+}
+
+i {
+    color: white;
+    margin: 7px;
+}
+
+/* Media Query para pantallas pequeñas */
+@media screen and (max-width: 768px) {
+    .contenedor {
+        width: 100%; /* Ocupar todo el ancho disponible */
+        max-width: none; /* Eliminar el máximo ancho */
+        margin-right: 0; /* Eliminar el margen derecho */
+    }
+    .contenedor-principal {
+        padding: 0 20px; /* Añadir padding a los lados */
+    }
+    .alogamiento {
+        padding: 0 10px; /* Reducir el padding */
+    }
+}

@@ -1,0 +1,78 @@
+/* 
+img{
+    margin-top: 100px;
+    width: 300px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  }
+  
+  
+  .contenedor__btn {
+    width: 300px;
+    text-align: center;
+    margin: auto;
+  }
+  
+  .boton {
+    width: 200px;
+    height: 40px;
+    font-size: 25px;
+    border-radius: 5px;
+    border: none;
+    margin: 10px;
+    background-color: #1aa3b6;
+    transition: all 0.4s ease-in-out;
+  }
+
+  button a {
+    
+   text-decoration: none;
+  }
+  
+  button:hover {
+    background-color: #4d78a5;
+  } */
+
+
+
+
+
+
+
+
+
+  img {
+    margin-top: 50px; /* Se ajusta el margen superior para dispositivos más pequeños */
+    max-width: 70%; /* La imagen se ajustará automáticamente al ancho del contenedor */
+    height: auto; /* La altura se ajustará automáticamente para mantener la proporción */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.contenedor__btn {
+    max-width: 300px; /* Se ajusta el ancho máximo para dispositivos más pequeños */
+    text-align: center;
+    margin: 20px auto; /* Se aumenta el margen y se centra horizontalmente */
+}
+
+.boton {
+    width: 100%; /* El botón ocupará todo el ancho disponible */
+    max-width: 200px; /* Se establece un ancho máximo para dispositivos más grandes */
+    height: 40px;
+    font-size: 18px; /* Se reduce el tamaño de fuente para adaptarse */
+    border-radius: 5px;
+    border: none;
+    margin: 10px auto; /* Se centra verticalmente y se agrega margen en todas las direcciones */
+    background-color: #1aa3b6;
+    transition: all 0.4s ease-in-out;
+}
+
+button a {
+    text-decoration: none;
+}
+
+button:hover {
+    background-color: #4d78a5;
+}

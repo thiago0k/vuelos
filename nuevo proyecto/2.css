@@ -1,0 +1,141 @@
+/* body {
+    background-color: white;
+}
+
+img{
+    background-color:white;
+    width: 300px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+  }
+.contenedor-registro {
+    background-color: white;
+    border-radius: 10px;
+    width: 400px;
+    border: solid 1px gainsboro;
+    height: 550px;
+    font-size: 30px;
+    text-align: center;
+    margin: auto;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+
+  }
+  
+  input {
+    text-align: center;
+    width: 90%;
+    height: 50px;
+    margin: 5px;
+    border-radius: 8px;
+    border: solid 1px gainsboro;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .botones__contenedor{
+    width: 400px;
+    margin: auto;
+    text-align: center;
+  }
+  
+  .boton-registro {
+    text-align: center;
+    width:90%;
+    height:40px ;
+    font-size: 17px;
+    margin: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: #20dbd8;
+  }
+  
+  i {
+   margin-right: 4px;
+   font-size: 23px;
+  }
+  
+
+  button {
+    cursor: pointer;
+    transition: all 0.4s ease-in-out;
+    color: #5f6a72;
+  }
+
+  button:hover{
+    background-color: #1aa3b6;
+    color: #06061c;
+  } */
+
+
+
+
+
+
+
+  body {
+    background-color: white;
+}
+
+img {
+    max-width: 100%; /* La imagen se ajustará automáticamente al ancho del contenedor */
+    height: auto; /* La altura se ajustará automáticamente para mantener la proporción */
+    display: block;
+    margin: 50px auto; /* Centra la imagen vertical y horizontalmente con un margen superior */
+}
+
+.contenedor-registro {
+    background-color: white;
+    border-radius: 10px;
+    max-width: 90%; /* Se establece un ancho máximo para dispositivos más pequeños */
+    width: 400px; /* Se establece un ancho máximo para evitar que el contenedor se extienda demasiado */
+    border: solid 1px gainsboro;
+    height: auto; /* La altura se ajustará automáticamente */
+    font-size: 3vw; /* El tamaño de fuente se ajustará en relación con el ancho de la pantalla */
+    text-align: center;
+    margin: 50px auto; /* Centra el contenedor vertical y horizontalmente con un margen superior */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+input {
+    text-align: center;
+    width: 90%;
+    height: 5vw; /* La altura del input se ajustará en relación con el ancho de la pantalla */
+    margin: 5px;
+    border-radius: 8px;
+    border: solid 1px gainsboro;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.botones__contenedor {
+    max-width: 90%; /* El contenedor de botones ocupará el 90% del ancho disponible */
+    width: 400px; /* Se establece un ancho máximo para evitar que el contenedor se extienda demasiado */
+    margin: 20px auto; /* Centra el contenedor de botones vertical y horizontalmente */
+    text-align: center;
+}
+
+.boton-registro {
+    width: 90%;
+    height: 40px;
+    font-size: 3vw; /* El tamaño de fuente se ajustará en relación con el ancho de la pantalla */
+    margin: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: #20dbd8;
+}
+
+i {
+    margin-right: 4px;
+    font-size: 3vw; /* El tamaño de fuente se ajustará en relación con el ancho de la pantalla */
+}
+
+button {
+    cursor: pointer;
+    transition: all 0.4s ease-in-out;
+    color: #5f6a72;
+}
+
+button:hover {
+    background-color: #1aa3b6;
+    color: #06061c;
+}
